@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+main{
+    padding: 10px;
+    text-align: center;
+
+}
+
+.logoSocio{
+    display: flex;
+    margin: 15px 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.socio img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.socio img:hover{
+    transform: scale(1.3);
+    transition: all 0.5s;
+}
+
+
+.menu{
+    text-align: center;
+    background-color: #3160cb;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    color: #898988;
+}
+
+h1 span{
+    color: #3160cb;
+}
+
+.infographie, .web{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 20px;
+
+}
+
+.infographie img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.web img{
+    width: 350px;
+    border-radius: 10px;
+}
+
+h2{
+    margin: 20px 0;
+    color: #3160cb;
+}
+
+.effet img:hover{
+    transform: scale(1.5);
+    transition: all 0.5s ease;
+}
+
+
+
+footer{
+    background-color: #23262a;
+    padding: 40px;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+
+}
