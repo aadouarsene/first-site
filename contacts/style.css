@@ -8,7 +8,17 @@
 main{
     width: 70vw;
     margin: auto;
+    flex-grow: 1;
 }
+
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 
 .logoSocio{
     display: flex;

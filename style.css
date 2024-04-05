@@ -5,9 +5,15 @@
     font-family: montserrat;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 main{
     width: 60vw;
     margin: auto;
+    flex-grow: 1;
 }
 
 .logoSocio{

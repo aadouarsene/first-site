@@ -8,7 +8,13 @@
 main{
     padding: 10px;
     text-align: center;
+    margin: auto;
+    flex-grow: 1;
+}
 
+body{
+    display: flex;
+    flex-direction: column;
 }
 
 .logoSocio{
