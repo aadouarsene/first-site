@@ -5,15 +5,11 @@
     font-family: montserrat;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-}
 
 main{
     width: 60vw;
     margin: auto;
-    flex-grow: 1;
+    min-height: calc(100vh - 65px - 39px - 89px);
 }
 
 .logoSocio{

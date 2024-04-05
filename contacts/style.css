@@ -8,14 +8,9 @@
 main{
     width: 70vw;
     margin: auto;
-    flex-grow: 1;
+    min-height: calc(100vh - 65px - 39px - 89px);
 }
 
-
-body{
-    display: flex;
-    flex-direction: column;
-}
 
 
 
@@ -113,10 +108,8 @@ h1 span{
 
 footer{
     background-color: #23262a;
-    padding: 40px;
+    padding: 20px;
     color: white;
-    margin-top: 10px;
     text-align: center;
     border-radius: 10px 10px 0 0;
-
 }

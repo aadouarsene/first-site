@@ -9,13 +9,10 @@ main{
     padding: 10px;
     text-align: center;
     margin: auto;
-    flex-grow: 1;
+    min-height: calc(100vh - 65px - 39px - 89px);
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-}
+
 
 .logoSocio{
     display: flex;
