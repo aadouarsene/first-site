@@ -44,6 +44,8 @@ main{
     position: sticky;
     top: 0;
     z-index: 99;
+    height: 40px;
+    align-content: center;
 
 }
 
@@ -51,14 +53,28 @@ main{
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 200px;
-    padding: 10px;
+    gap:100px;
+    
 }
 
 .menu ul li a{
     text-decoration: none;
     color: white;
-    font-weight: 600;
+    font-weight: 400;
+}
+
+.menu ul li {
+    padding: 2px 20px;
+}
+
+.menu ul li:hover {
+    background-color: white;
+    color: #3160cb;
+    border-radius: 50px;
+}
+
+.menu ul li:hover a {
+    color: #3160cb;
 }
 
 h1{

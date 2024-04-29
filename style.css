@@ -42,6 +42,8 @@ main{
     position: sticky;
     top: 0;
     z-index: 99;
+    height: 40px;
+    align-content: center;
 
 }
 
@@ -49,14 +51,28 @@ main{
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 200px;
-    padding: 10px;
+    gap:100px;
+    
 }
 
 .menu ul li a{
     text-decoration: none;
     color: white;
-    font-weight: 600;
+    font-weight: 400;
+}
+
+.menu ul li {
+    padding: 2px 20px;
+}
+
+.menu ul li:hover {
+    background-color: white;
+    color: #3160cb;
+    border-radius: 50px;
+}
+
+.menu ul li:hover a {
+    color: #3160cb;
 }
 
 .presentation{
@@ -126,18 +142,24 @@ h2{
     text-align: justify;
 }
 
+.contenuReseau p, .contenuDev p{
+    margin-right: 10px;
+}
+
+.contenuInfographie p{
+    margin-left: 10px;
+}
+
 .contenuReseau img, .contenuInfographie img, .contenuDev img{
     width: 300px;
     border-radius: 10px;
     margin-left: 10px;
+    object-fit: cover;
+    box-shadow: 0 0 5px #898988; ;
 }
 
 
-.contenuInfographie img{
-    width: 300px;
-    border-radius: 10px;
-    margin-left: 10px;
-}
+
 
 footer{
     background-color: #23262a;
